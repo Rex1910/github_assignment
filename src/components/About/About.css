@@ -1,0 +1,163 @@
+.container{
+  margin:2%;
+  display: flex;
+}
+.left-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:0% 5%;
+}
+.circle-about{
+  height:120px;
+  width:120px;
+  border-radius:50%;
+  background:rgb(61, 115, 208);
+  display:grid;
+  place-items:center;
+}
+
+.content-wrapper{
+  margin-top:30px;
+}
+
+.category{
+  margin-top:15px
+}
+
+.m-2{
+  margin:2%
+}
+
+.categories{
+  border:1px solid rgb(212 212 212);
+  margin:0px 2px;
+  padding:3px 8px;
+  border-radius: 8px;
+  color:rgb(61, 115, 208);
+}
+
+.font-white{
+  color: white;
+}
+
+.mt-10{
+  margin-top:10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.m-4{
+  margin:4px
+}
+
+.fnt-14{
+  font-size:14px;
+}
+
+.black{
+  color:black;
+}
+
+.right-container{
+  width:70%;
+}
+
+.mt-5{
+  margin-top:5px;
+}
+
+.about-description{
+  margin:10px 0px;
+}
+
+.font-color{
+  color:rgb(39 37 37 / 69%)
+}
+
+.setup-btn{
+  color:white;
+  height:30px;
+  background-color: #6bc56b;
+  border: none;
+  padding:0px 40px;
+  margin: 12px 0px;
+  border-radius: 3px;
+  cursor: not-allowed;
+}
+
+.content-title{
+  font-size: 30px;
+  margin:8px 0px;
+}
+
+.title{
+  color:rgb(61, 115, 208);
+  font-weight: 500;
+  font-size: 18px;
+  margin-left:10px;
+  margin-bottom:5px
+}
+
+.about-inner-div{
+  padding:10px;
+  overflow:scroll;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.about-outer-div{
+  display:flex;
+  flex-wrap:wrap;
+  border-radius: 8px;
+  margin:3% 0%;
+}
+
+@media (max-width:667px){
+  .left-container{
+    width:100%;
+  }
+  .right-container{
+    width:100%;
+    margin-top:30px;
+  }
+  .container{
+    margin:2%;
+    display: block;
+  }
+  .title{
+    font-size: 12px;
+  }
+  .about-inner-div{
+    width: 100%;
+  }
+  .follower{
+    font-size: 14px;
+    margin-left: 0px;
+  }
+}
+.follower{
+  color:rgb(61, 115, 208);
+  font-weight: 500;
+  margin-bottom:5px
+}
+
+@media (min-width:668px){
+  .left-container{
+    width: 30%;
+  }
+  .follower{
+    font-size: 18px;
+    margin-left:10px;
+  }
+}
+
+@media (min-width:668px) and (max-width:960px) {
+  .left-container{
+    width:50%;
+  }
+  .right-container{
+    width:50%;
+  }
+}

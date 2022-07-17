@@ -1,0 +1,107 @@
+.main-div{
+  margin:2%;
+}
+.inpt{
+  padding:2px 5px;
+  height: 25px;
+  width: 96%;
+  border-radius: 5px;
+  border:1px solid #484837;
+  display: block;
+}
+.submit-btn{
+  color:black;
+  height:30px;
+  width:200px;
+  background-color: #6bc56b;
+  border: none;
+  margin-top:20px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.goBack{
+  color:black;
+  height:30px;
+  background-color: #484837;
+  border: none;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: white;
+}
+.circle{
+  height:75px;
+  width:75px;
+  border-radius:50%;
+  background:rgb(61, 115, 208);
+  display:grid;
+  place-items:center;
+}
+
+.d-flex{
+  display:flex;
+  align-items: center;
+}
+
+.outer-div{
+  display:flex;
+  flex-wrap:wrap;
+  border-radius: 8px;
+  background:#f0f0f0;
+  margin:3% 0%;
+}
+
+.black{
+  color:black;
+}
+.description{
+  height:100px;
+  max-height:100px;
+  min-height: 100px;
+  overflow-x: auto;
+  width:200px;
+  margin-left:10px;
+  display: flex;
+  align-items: center;
+}
+.white{
+  color: white;
+}
+
+.font-13{
+  font-size:13px;
+}
+
+.font-14{
+  font-size:14px;
+}
+
+@media (min-width:1200px) {
+  .outer-inner-div{
+    width:31%;
+  }
+}
+@media (min-width:800px) and (max-width:1199px) {
+  .outer-inner-div{
+    width:25%;
+  }
+}
+.outer-inner-div{
+  padding:10px;
+  overflow:scroll;
+  text-decoration: none;
+}
+
+.mx-2{
+  margin:2%
+}
+
+.loader{
+  margin:5% 0% 2% 0%;
+  text-align: center;
+}
+
+.mb-2{
+  margin-bottom:15px;
+}
